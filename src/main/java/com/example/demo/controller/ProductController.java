@@ -57,7 +57,7 @@ public class ProductController {
    
    @RequestMapping(value = "/products")
    public ResponseEntity<Object> getProduct() {
-	   System.out.println("INSIDE GET PRODUCT");
+	   System.out.println("INSIDE GET PRODUCT LIST");
       return new ResponseEntity<>(productRepo.values(), HttpStatus.OK);
    }
 	/*
