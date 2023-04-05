@@ -60,8 +60,5 @@ public class ProductController {
 	   System.out.println("INSIDE GET PRODUCT LIST");
       return new ResponseEntity<>(productRepo.values(), HttpStatus.OK);
    }
-	/*
-	 * public static void main(String []args) {
-	 * SpringApplication.run(ProductController.class,args); }
-	 */
+	
 }
